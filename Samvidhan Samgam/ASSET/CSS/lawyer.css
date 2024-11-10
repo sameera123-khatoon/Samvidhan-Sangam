@@ -1,0 +1,109 @@
+:root{
+    
+    --primary-color:#00c8ff;
+    --primary2-color:#7dd5ed;
+    --sucess-color:#00bf8e;
+    --warning-color:#f7c94b;
+    --danger-color:#ec1212;
+    --variant-danger-color:#rgba(247, 88, 66, 0.4);
+    --white-color:#fff;
+    --black-color:#000;
+    --light-color:rgba(255,255,255,0.7);
+    --bg-color:#ffffff;
+    --bg1-color:#ebe0e0;
+    --bg2-color:#d4dbdc;
+
+    --container-width-lg:80%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+
+    --transition: all 400ms ease;
+    --shadow:0 3rem 3rem rgba(1, 1, 1, 0.1) ;
+    --box-shadow: 1px 1px 7px 3px var(--primary2-color);
+}
+
+.lawyer{
+    margin-top: 5rem;
+    max-width: 70%;
+    justify-content: center;
+    top: 3rem;
+}
+.heading h1{
+    position: relative;
+    left: 12rem;
+}
+.lawyer-conatiner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    margin: 0 auto;
+    justify-items: center;
+    width: 70%;
+    top: 140px;
+    left: 200px;
+    position:absolute;
+}
+
+
+.laywer-deatils{
+    border: 1px solid transparent;
+    height: fit-content;
+    padding: 1rem 2rem; 
+    width: 380px;
+    background: var(--bg-color);
+    height: 550px;
+    border-radius: 2rem;
+    position: relative;
+    top: 5rem;
+    box-shadow: var(--shadow);
+}
+
+.laywer-deatils:hover{
+    transition: var(--transition);
+    box-shadow: var(--box-shadow);
+    border: 1px solid var(--primary2-color);
+}
+.laywer-deatils .lawyer-img img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    align-items: center;
+    position: relative;
+    left: 3.5rem;
+
+}
+.lawyer-info .lawyer-name-cat{
+    text-align: center;
+}
+.lawyer-info .lawyer-name-cat p{
+    font-size: 1.2rem;
+    color: var(--black-color);
+    font-weight: 700;
+}
+.lawyer-info .exp{
+    text-align: center;
+    gap: .5rem;
+    font-size: 1.2rem;
+    margin-top: .7rem;
+    font-weight: 500;
+}
+
+.appoinment{
+    border-radius: 2rem;
+    position: relative;
+    top: 1rem;
+    left: 3rem;
+}
+.appoinment:hover{
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+.appoinment a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
